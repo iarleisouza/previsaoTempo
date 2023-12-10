@@ -48,7 +48,7 @@ document.querySelector('.busca').addEventListener('submit', async (event)=>{
 
         function clearInfo() {
             showWarning('')
-            document.querySelector('.resultado');style.display = 'none'
+            document.querySelector('.resultado').style.display = 'none'
         }
 
     function showWarning(msg) {
